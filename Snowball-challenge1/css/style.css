@@ -1,5 +1,6 @@
 * {
   margin: 0;
+ 
 }
 html {
   scroll-behavior: smooth;
@@ -12,7 +13,12 @@ header {
   text-align: center;
   font-size: 30px;
   padding-top: 10px;
-  margin: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  top: 0%;
 }
 .nav-bar {
   list-style: none;
@@ -23,9 +29,18 @@ header {
   background-color: black;
   color: white;
   height: 50px;
+  text-decoration: none;
+  
 }
 .nav-bar li {
-  margin: 10px;
+  margin: 1%;
+}
+
+li button{
+  text-decoration: none;
+  font-size: 30px;
+  color: red;
+  outline: none;
 }
 .menu-button {
   border: none;
@@ -41,24 +56,31 @@ header {
   font-size: 16px;
 }
 .bilde-header {
-  width: 100px;
+  width: 100%;
   display: flex;
+  border-bottom:solid black 5px;
+  transition: 0.8s;
+
+ 
 }
 .bilde-header:hover {
   opacity: 0.8;
   cursor: pointer;
+  border-bottom: 1px solid black;
 }
 
 .img1{
-height: auto;
-width: 50vh;
+height: 28vh;
+width: 31%;
 }
 
 .img2{
-  height: auto;
-  width: 50vh;
-  }
-.img4{
-height: auto;
-width: 50vh;
+  height: 28vh;
+  width: 38%;
+  
 }
+
+.img3{
+  height: 28vh;
+  width: 31%;
+  
