@@ -1,6 +1,5 @@
 * {
   margin: 0;
- 
 }
 html {
   scroll-behavior: smooth;
@@ -30,13 +29,12 @@ header {
   color: white;
   height: 50px;
   text-decoration: none;
-  
 }
 .nav-bar li {
   margin: 1%;
 }
 
-li button{
+li button {
   text-decoration: none;
   font-size: 30px;
   color: red;
@@ -58,10 +56,8 @@ li button{
 .bilde-header {
   width: 100%;
   display: flex;
-  border-bottom:solid black 5px;
+  border-bottom: solid black 5px;
   transition: 0.8s;
-
- 
 }
 .bilde-header:hover {
   opacity: 0.8;
@@ -69,42 +65,47 @@ li button{
   border-bottom: 1px solid black;
 }
 
-.img1{
-height: 28vh;
-width: 31%;
-}
-
-.img2{
-  height: 28vh;
-  width: 38%;
-  
-}
-
-.img3{
+.img1 {
   height: 28vh;
   width: 31%;
-  
-  .footer1 {
-    margin-left: 100px;
-    padding: 50px 0;
-    justify-content: center;
-    }
-    
-    footer {
-    font-weight: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid black;
-    background-color: #191919;
-    color: white;
-    }
-    
-    .contactinfo {
-    white-space: nowrap;
-    }
-    
-    .footer2 {
-    margin-left: 200px;
-    width: 200px;
-    }
+}
+
+.img2 {
+  height: 28vh;
+  width: 38%;
+}
+
+.img3 {
+  height: 28vh;
+  width: 31%;
+}
+
+.mainpic {
+  display: flex;
+  background: linear-gradient(to right, #dbe6f6, #c5796d);
+}
+
+.footer1 {
+  margin-left: 100px;
+  padding: 50px 0;
+  justify-content: center;
+}
+
+footer {
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+  background-color: #191919;
+  color: white;
+}
+
+.contactinfo {
+  white-space: nowrap;
+}
+
+.footer2 {
+  margin-left: 200px;
+  width: 200px;
+}
