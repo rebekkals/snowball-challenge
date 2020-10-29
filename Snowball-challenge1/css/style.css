@@ -33,6 +33,7 @@ header {
   background: transparent;
   color: white;
   font-size: 15px;
+  text-decoration: none;
 }
 .menu-button:hover {
   cursor: pointer;
@@ -43,4 +44,8 @@ header {
   width: 200px;
   height: 250px;
   object-fit: cover;
+}
+.bilde-header:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
