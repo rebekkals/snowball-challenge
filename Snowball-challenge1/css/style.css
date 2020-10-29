@@ -84,3 +84,27 @@ width: 31%;
   height: 28vh;
   width: 31%;
   
+  .footer1 {
+    margin-left: 100px;
+    padding: 50px 0;
+    justify-content: center;
+    }
+    
+    footer {
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    background-color: #191919;
+    color: white;
+    }
+    
+    .contactinfo {
+    white-space: nowrap;
+    }
+    
+    .footer2 {
+    margin-left: 200px;
+    width: 200px;
+    }
