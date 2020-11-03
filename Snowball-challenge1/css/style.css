@@ -6,7 +6,7 @@ html {
 }
 body {
   font-family: "Hind", sans-serif;
-  background: linear-gradient(to right, #ece9e6, #ffffff);
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
 }
 header {
   text-align: center;
@@ -19,6 +19,7 @@ header {
   top: 0%;
   background-color: #2c3e50;
   color: white;
+  z-index: 999;
 }
 .nav-bar {
   list-style: none;
@@ -88,6 +89,7 @@ li button {
   display: flex;
   background: linear-gradient(to right, #bdc3c7, #2c3e50);
 }
+
 .bilde {
   flex-basis: 50%;
   object-fit: cover;
@@ -101,6 +103,91 @@ li button {
   height: 500px;
   color: black;
   padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.del2 {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+.runde2 {
+  flex-basis: 50%;
+  object-fit: cover;
+  width: 40%;
+  height: 400px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0, 5);
+}
+.container {
+  width: 80vw;
+  background: url(https://i.pinimg.com/originals/54/31/0a/54310a09179e78faa8ec4e4644464626.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 40px 100px;
+  box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+}
+.container p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: rgb(118, 241, 255);
+  text-shadow: 0px 0px 6px white;
+  letter-spacing: 1px;
+}
+.input,
+.msg .area {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.login .input {
+  width: 48;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child {
+  margin-right: 0;
+}
+
+.msg .area {
+  height: 200px;
+}
+.btn {
+  width: 250px;
+  background: #486255;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input:focus,
+.msg .area:focus {
+  border: 2px solid #486255;
+}
+
+::-webkit-input-placeholder {
+  font-family: "roboto", sans-serif;
+}
+::-moz-input-placeholder {
+  font-family: "roboto", sans-serif;
+}
+::-ms-input-placeholder {
+  font-family: "roboto", sans-serif;
 }
 
 .footer1 {
@@ -126,4 +213,27 @@ footer {
 .footer2 {
   margin-left: 200px;
   width: 200px;
+}
+
+#knapp5 {
+  scroll-margin-top: 108px;
+}
+
+#knapp4 {
+  scroll-margin-top: 108px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 40px;
+    width: 90vw;
+  }
+  .footer1 {
+    margin-left: 100px;
+    padding: 50px 0;
+    justify-content: center;
+  }
+  .footer2 {
+    width: 200px;
+  }
 }

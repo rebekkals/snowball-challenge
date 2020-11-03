@@ -9,15 +9,28 @@
       href="https://fonts.googleapis.com/css2?family=Hind&display=swap"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".btn").click(function () {
+          $(".input,.area").val("");
+        });
+      });
+    </script>
   </head>
   <body>
     <header>FIREFLIES Lighting cities</header>
     <div class="nav-bar">
       <ul class="nav-bar">
-        <li><button type="button" class="menu-button">HOME</button></li>
-        <li><button type="button" class="menu-button">FIRE</button></li>
-        <li><button type="button" class="menu-button">DONATE</button></li>
-        <li><button type="button" class="menu-button">CONTACT US</button></li>
+        <li><a href="#knapp1" type="button" class="menu-button">HOME</a></li>
+        <li><a href="#knapp2" type="button" class="menu-button">FIRE</a></li>
+        <li><a href="#knapp3" type="button" class="menu-button">DONATE</a></li>
+        <li><a href="#knapp4" type="button" class="menu-button">JOIN US</a></li>
+        <li>
+          <a href="#knapp5" type="button" class="menu-button"
+            >CONTACT INFORMATION</a
+          >
+        </li>
       </ul>
     </div>
 
@@ -59,8 +72,55 @@
       </section>
     </article>
 
+    <div class="del2" id="knapp3">
+      <div class="text-div">
+        <h2>Why?</h2>
+        <p class="ouraim">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          pariatur iure natus ratione, rem ex porro provident nemo. Repellendus,
+          deserunt! Aperiam pariatur molestiae voluptas nam. Rem nesciunt eius
+          magnam ab eum rerum vel pariatur expedita obcaecati perferendis natus
+          veritatis eligendi aut assumenda, totam repellendus tempore, sit
+          sapiente inventore, provident voluptates praesentium at omnis!
+          Accusantium consequatur deserunt placeat, quasi doloremque odio rerum
+          odit perferendis tempora veniam eius rem voluptate amet fugiat illo.
+          Illo obcaecati non iusto at corrupti. Repudiandae consequuntur
+          corporis voluptatibus fuga, voluptates eius iste soluta doloremque.
+          Aspernatur libero aut quam quis neque, explicabo dicta exercitationem
+          quaerat earum ut officia. Eaque, harum! Est alias sunt explicabo minus
+          consectetur, nihil maiores nesciunt perspiciatis, quibusdam qui
+          molestias doloremque officiis, minima cupiditate dolor accusamus
+          eaque. Vitae harum sequi itaque, velit cum neque doloremque saepe
+          magnam corporis quisquam amet, atque molestiae quis nostrum ipsam
+          deserunt ratione perspiciatis soluta, distinctio excepturi laudantium.
+          Itaque, omnis ducimus.
+        </p>
+      </div>
+
+      <img
+        class="runde2"
+        src="https://www.cntravellerme.com/public/styles/1920px_900px_wide_landscape/public/images/2019/06/11/fireflies-summer.jpg?itok=TpLr8iXw&c=3c48badc5091a958f608df577c5b1f83"
+        alt="innhold"
+      />
+    </div>
+
+    <div class="container" id="knapp4">
+      <p>contact us</p>
+
+      <div class="login">
+        <input type="text" class="input" placeholder="Your name" />
+        <input type="text" class="input" placeholder="your email address" />
+      </div>
+      <div class="subject">
+        <input type="text" class="input" placeholder="subject" />
+      </div>
+      <div class="msg">
+        <textarea class="area" placeholder="leave a message"></textarea>
+      </div>
+      <div class="btn">send message</div>
+    </div>
     <footer>
-      <ul class="footer1">
+      <ul class="footer1" id="knapp5">
         <li>
           <h3 class="contactinfo">Contact information</h3>
           <p>noe <br /></p>
