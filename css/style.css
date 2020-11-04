@@ -78,16 +78,19 @@ li button {
 .img1 {
   height: 28vh;
   width: 31%;
+  object-fit: cover;
 }
 
 .img2 {
   height: 28vh;
   width: 38%;
+  object-fit: cover;
 }
 
 .img3 {
   height: 28vh;
   width: 31%;
+  object-fit: cover;
 }
 
 .mainpicture {
@@ -107,9 +110,11 @@ li button {
 .text-div {
   flex-basis: 50%;
   color: black;
-  padding-left: 20px;
+  padding-left: 40px;
   padding-top: 20px;
   padding-right: 20px;
+  padding-bottom: 20px;
+  width: 80%;
 }
 
 /* del 2 start */
@@ -228,7 +233,10 @@ footer {
   margin-left: 200px;
   width: 200px;
 }
-
+.footer2,
+.footer1 li {
+  list-style: none;
+}
 #knapp5 {
   scroll-margin-top: 108px;
 }
