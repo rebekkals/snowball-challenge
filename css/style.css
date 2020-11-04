@@ -238,12 +238,13 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .body {
-    width: 100%;
-  }
   .container {
     padding: 40px;
     width: auto;
+  }
+  header {
+    width: auto;
+    font-size: 20px;
   }
   .text-div {
     width: 70%;
@@ -256,6 +257,10 @@ footer {
     width: auto;
     font-size: 10px;
   }
+  .menu-button {
+    font-size: 10px;
+    width: auto;
+  }
 
   .bilde {
     width: 100%;
@@ -264,9 +269,8 @@ footer {
     width: 100%;
   }
   .nav-bar ul {
-    width: auto;
+    width: 100%;
     display: flex;
-    font-size: 5px;
   }
   .bilde-header,
   .img1,
@@ -275,5 +279,6 @@ footer {
     display: block;
     width: 100%;
     justify-content: center;
+    object-fit: cover;
   }
 }
