@@ -136,6 +136,8 @@ li button {
 
 /* del 2 slutt*/
 
+/*spørreskjema start */
+
 .container {
   width: 80vw;
   background: url(https://i.pinimg.com/originals/54/31/0a/54310a09179e78faa8ec4e4644464626.gif);
@@ -208,6 +210,9 @@ input:focus,
 ::-ms-input-placeholder {
   font-family: "roboto", sans-serif;
 }
+/*spørreskjema slutt */
+
+/*footer start*/
 
 .footer1 {
   margin-left: 100px;
