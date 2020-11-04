@@ -281,4 +281,7 @@ footer {
     justify-content: center;
     object-fit: cover;
   }
+  .runde2 {
+    height: 150px;
+  }
 }
