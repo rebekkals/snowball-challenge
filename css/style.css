@@ -92,7 +92,7 @@ li button {
 
 .mainpicture {
   display: flex;
-  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  background: linear-gradient(to right, #bdc3c7, #849eb8);
 }
 
 .bilde {
@@ -114,7 +114,7 @@ li button {
 
 /* del 2 start */
 .del2 {
-  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  background: linear-gradient(to right, #bdc3c7, #849eb8);
 }
 .runde2 {
   object-fit: cover;
