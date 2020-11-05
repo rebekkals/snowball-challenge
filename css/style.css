@@ -121,6 +121,12 @@ li button {
 .del2 {
   background: linear-gradient(to right, #bdc3c7, #849eb8);
 }
+.bilde {
+  display: flex;
+  padding-right: 0px;
+  float: right;
+  padding-bottom: 150px;
+}
 .runde2 {
   object-fit: cover;
   width: 40%;
@@ -129,6 +135,7 @@ li button {
 }
 .bilde-midten {
   display: flex;
+  width: 100%;
 }
 .bilde-midten img {
   width: 33.3%;
